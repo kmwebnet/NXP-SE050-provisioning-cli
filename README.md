@@ -31,10 +31,10 @@ it's protected i2c transmission by PlatformSCP03 keys.
 
 # Usage
 
-"git clone --recursive " on your target directory. 
-and download "Plug & Trust MW Release v02.12.04" from NXP website
-and put the contents to "simw-top" folder. 
-you need to change a serial port number which actually connected to ESP32 in platformio.ini.  
+"git clone --recursive " on your target directory.  
+and download "Plug & Trust MW Release v02.12.04" from NXP website  
+and put the contents to "simw-top" folder.   
+you need to change a serial port number which actually connected to ESP32 in platformio.ini.   
 
 # Run this project
 
@@ -78,10 +78,10 @@ quit this program.
 
 # Object ID Definitions
 
-#define OBJID_usr_key (EX_SSS_OBJID_CUST_START + 0x10000002u)
-#define OBJID_usr_cert (EX_SSS_OBJID_CUST_START + 0x10000003u)
-#define OBJID_signer_cert (EX_SSS_OBJID_CUST_START + 0x10000004u)
-#define OBJID_root_cert (EX_SSS_OBJID_CUST_START + 0x10000005u)
+#define OBJID_usr_key (EX_SSS_OBJID_CUST_START + 0x10000002u)  
+#define OBJID_usr_cert (EX_SSS_OBJID_CUST_START + 0x10000003u)  
+#define OBJID_signer_cert (EX_SSS_OBJID_CUST_START + 0x10000004u)  
+#define OBJID_root_cert (EX_SSS_OBJID_CUST_START + 0x10000005u)  
 
 
 # License
